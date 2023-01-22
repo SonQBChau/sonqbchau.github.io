@@ -1,7 +1,7 @@
 navbar_entries:
-  - title: about
-    url: about
-
+  - title: home
+    url: /
+    
   - title: blog
     url: blog
 
