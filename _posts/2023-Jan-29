@@ -4,11 +4,11 @@ tags: [gaming, steam deck]
 ---
 # Installing Windows 11 or Ubuntu on a Steam Deck External USB Drive
 
-If you have a Steam Deck, especially the 64GB version, you may want to install Windows 11 or Ubuntu on an external USB drive. It is possible, but there are some things to consider before you start. This guide will show you how to install Windows 11 or Ubuntu on an external USB drive for your Steam Deck.
+Installing Windows 11 or Ubuntu on an external USB drive is a great way to expand the capabilities of your Steam Deck, especially if you have the 64GB version. This guide provides instructions for installing either operating system on an external USB drive for use with your Steam Deck.
 
-## Windows 11 Installation
+## Windows Installation
 
-To run Windows 11 from an external USB drive, you'll need to use Windows To Go. First, download the Windows 11 ISO from Microsoft's website: <https://www.microsoft.com/en-us/software-download/windows11>. Then, get Rufus, a free and open-source utility for creating bootable USB drives, from <https://rufus.ie/>. Note: The easiest way to use Rufus is with a Windows PC, as it is designed for Windows. If you are unable to find one, you might run it on Steam Deck with Lutris
+To run Windows from an external USB drive, you'll need to use Windows To Go. First, download the Windows 11 ISO from Microsoft's website: <https://www.microsoft.com/en-us/software-download/windows11>. Then, get Rufus, a free and open-source utility for creating bootable USB drives, from <https://rufus.ie/>. Note: The easiest way to use Rufus is with a Windows PC, as it is designed for Windows. If you are unable to find one, you might run it on Steam Deck with Lutris
 
 Once you have both the Windows 11 ISO and Rufus, follow these steps:
 
@@ -23,11 +23,11 @@ Once you have both the Windows 11 ISO and Rufus, follow these steps:
 
 ### Dual Boot
 
-If you want to dual boot Windows 11 and Ubuntu on your Steam Deck external USB drive, the process is a little more involved. You can find a comprehensive guide for dual booting on a Steam Deck 256GB or 512GB at <https://github.com/baldsealion/Steamdeck-Ultimate-Windows11-Guide/wiki>.
+If you want to dual boot Windows 11 and Ubuntu on your Steam Deck, the process is a little more involved. You can find a comprehensive guide for dual booting on a Steam Deck at <https://github.com/baldsealion/Steamdeck-Ultimate-Windows11-Guide/wiki>.
 
 # Ubuntu Installation
 
-The normal live USB installation method will prompted to select boot options every time you start up your Steam Deck, which can be annoying. To avoid this issue, you can disable the ESP flag during the installation process by following the guidelines outlined in this comprehensive guide: <https://itsfoss.com/intsall-ubuntu-on-usb/>
+Normally, Ubuntu will prompted to select boot options every time you start up your Steam Deck, which can be annoying. To avoid this issue, you can disable the ESP flag during the installation process by following the guidelines outlined in this comprehensive guide: <https://itsfoss.com/intsall-ubuntu-on-usb/>
 
 ### Removing Ubuntu from BIOS Boot Menu (UEFI)
 
