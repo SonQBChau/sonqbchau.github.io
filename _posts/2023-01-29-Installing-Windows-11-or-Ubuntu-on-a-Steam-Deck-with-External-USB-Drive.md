@@ -21,7 +21,7 @@ Once you have both the Windows 11 ISO and Rufus, follow these steps:
 
 ### Dual Boot
 
-If you want to dual boot Windows 11 and Ubuntu on your Steam Deck, the process is a little more involved. You can refer to [Steamdeck Ultimate Windows 11 Guide](https://github.com/baldsealion/Steamdeck-Ultimate-Windows11-Guide/wiki).
+If you want to dual boot Windows 11 and SteamOS on your Steam Deck, the process is a little more involved. You can refer to [Steamdeck Ultimate Windows 11 Guide](https://github.com/baldsealion/Steamdeck-Ultimate-Windows11-Guide/wiki).
 
 # Ubuntu Installation
 
