@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing Windows 11 or Ubuntu on a Steam Deck with an External USB Drive
+title: How to install Windows or Ubuntu on a Steam Deck with an External USB Drive
 tags: [gaming, steam deck]
 ---
 
