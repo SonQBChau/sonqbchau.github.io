@@ -26,8 +26,10 @@ If you want to dual boot Windows 11 and SteamOS on your Steam Deck, the process 
 
 ## Ubuntu Installation
 
-Commonly, Ubuntu will prompted to select boot options every time you start up your Steam Deck, which can be annoying. To avoid this issue, you can disable the ESP flag during the installation process by following the guidelines outlined in this [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/).
+Typically, Ubuntu will prompted to select boot options every time you start up your Steam Deck, which can be annoying. To avoid this issue, you can disable the ESP flag during the installation process by following the guidelines outlined in this [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/).
 
 **Removing Ubuntu from BIOS Boot Menu (UEFI)**
 
 If you mistakenly added Ubuntu to the boot menu in your BIOS or UEFI, you can find how to remove it [here](https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi).
+
+That is. I hope that this guide has provided you with the necessary information and guidance to successfully install either Windows 11 or Ubuntu on your Steam Deck.
