@@ -2,7 +2,6 @@
 layout: post
 tags: [gaming, steam deck]
 ---
-#
 
 Installing Windows 11 or Ubuntu on an external USB drive is a great way to expand the capabilities of your Steam Deck, especially if you have the 64GB version. This guide provides instructions for installing either operating system on an external USB drive for use with your Steam Deck.
 
