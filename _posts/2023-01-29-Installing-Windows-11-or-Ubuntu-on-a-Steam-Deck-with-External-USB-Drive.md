@@ -11,14 +11,13 @@ To run Windows from an external USB drive, you'll need to use Windows To Go. Fir
 
 Once you have both the Windows 11 ISO and Rufus, follow these steps:
 
-1. Connect the external USB drive to your Steam Deck.
-2. Open Rufus and select the external USB drive as the target device.
-3. Choose the Windows 11 ISO as the source.
-4. In the Partition scheme section, select MBR for a BIOS computer or UEFI for an UEFI computer.
-5. Choose NTFS as the file system.
-6. In the Boot selection section, select Windows to Go.
-7. Click the Start button in Rufus to begin the process.
-8. Once Rufus finishes, you can install Windows 11 by pressing the volume and power button on your Steam Deck and selecting the USB drive as the boot option.
+1. Open Rufus and select the external USB drive as the target device.
+2. Choose the Windows 11 ISO as the source.
+3. In the Partition scheme section, select "MBR partition scheme for BIOS or UEFI computer."
+4. Choose NTFS as the file system.
+5. In the Boot selection section, select Windows to Go.
+6. Click the Start button in Rufus to begin the process.
+7. Once Rufus finishes, you can install Windows 11 by pressing the volume and power button on your Steam Deck and selecting the USB drive as the boot option.
 
 ### Dual Boot
 
@@ -26,7 +25,7 @@ If you want to dual boot Windows 11 and Ubuntu on your Steam Deck, the process i
 
 # Ubuntu Installation
 
-Normally, Ubuntu will prompted to select boot options every time you start up your Steam Deck, which can be annoying. To avoid this issue, you can disable the ESP flag during the installation process by following the guidelines outlined in this [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/)
+Normally, Ubuntu will prompted to select boot options every time you start up your Steam Deck, which can be annoying. To avoid this issue, you can disable the ESP flag during the installation process by following the guidelines outlined in this [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/).
 
 ### Removing Ubuntu from BIOS Boot Menu (UEFI)
 
