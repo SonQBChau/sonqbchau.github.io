@@ -3,7 +3,7 @@ layout: post
 tags: [gaming, steam deck]
 ---
 
-Installing Windows 11 or Ubuntu on an external USB drive is a great way to save your Steam Deck storage, especially if you have the 64GB version. This guide provides instructions for installing either operating system on an external USB drive for use with your Steam Deck.
+Installing Windows 11 or Ubuntu on an external USB drive is a great way to save your Steam Deck storage, especially if you have the 64GB version. This guide provides instructions for installing either operating system on your Steam Deck.
 
 ## Windows Installation
 
