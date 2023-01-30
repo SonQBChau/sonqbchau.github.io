@@ -32,4 +32,4 @@ Typically, Ubuntu will prompted to select boot options every time you start up y
 
 If you mistakenly added Ubuntu to the boot menu in your BIOS or UEFI, you can find how to remove it [here](https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi).
 
-That is. I hope that this guide has provided you with the necessary information and guidance to successfully install either Windows 11 or Ubuntu on your Steam Deck.
+That is. I hope that this guide has provided you with the necessary information to install either Windows 11 or Ubuntu on your Steam Deck.
