@@ -24,7 +24,7 @@ Once you have both the Windows 11 ISO and Rufus, follow these steps:
 
 If you want to dual boot Windows 11 and SteamOS on your Steam Deck, the process is a little more involved. You can refer to [Steamdeck Ultimate Windows 11 Guide](https://github.com/baldsealion/Steamdeck-Ultimate-Windows11-Guide/wiki).
 
-# Ubuntu Installation
+## Ubuntu Installation
 
 Commonly, Ubuntu will prompted to select boot options every time you start up your Steam Deck, which can be annoying. To avoid this issue, you can disable the ESP flag during the installation process by following the guidelines outlined in this [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/).
 
