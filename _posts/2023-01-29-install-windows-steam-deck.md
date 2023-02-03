@@ -8,7 +8,7 @@ Installing Windows or Ubuntu on an external USB drive is a great way to save you
 
 ## Windows Installation
 
-To run Windows from an USB drive, you'll need to use Windows to Go as standard versions cannot be installed on external drives. Also, consider using an SSD for improved performance as HDDs can be slow. First, download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) from Microsoft's website. Then, get [Rufus](https://rufus.ie/), a free and open-source utility for creating bootable USB drives. If you don't have a Windows machine, you can try to install Rufus on Steam Deck with Lutris.
+To run Windows from an USB drive, you'll need to use Windows to Go as standard versions cannot be installed on external drives. Also, consider using an SSD for improved performance as HDDs can be slow. First, download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) from Microsoft's website. Then, get [Rufus](https://rufus.ie/), a free and open-source utility for creating bootable USB drives.
 
 Once you have both the Windows ISO and Rufus, follow these steps:
 
