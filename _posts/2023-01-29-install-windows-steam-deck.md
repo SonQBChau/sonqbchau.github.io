@@ -8,7 +8,7 @@ Installing Windows or Ubuntu on an external USB drive is a great way to save you
 
 ## Windows Installation
 
-To run Windows from an USB drive, you'll need to use Windows to Go as standard versions cannot be installed on external drives. Also, consider using an SSD for improved performance as HDDs can be slow. First, download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) from Microsoft's website. Then, get [Rufus](https://rufus.ie/), a free and open-source utility for creating bootable USB drives.
+To run Windows from an USB drive, you'll need to use Windows to Go as standard versions cannot be installed on external drives. An SSD is also recommended as HDD can be slow. Download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) from Microsoft's website, and [Rufus](https://rufus.ie/) to create Windows to Go image option.
 
 Once you have both the Windows ISO and Rufus, follow these steps:
 
@@ -26,10 +26,29 @@ If you want to dual boot Windows 11 and SteamOS on your Steam Deck, the process 
 
 ## Ubuntu Installation
 
-Typically, Ubuntu will prompted to select boot options every time you start up your Steam Deck, which can be annoying. To avoid this issue, you can disable the ESP flag during the installation process by following the guidelines outlined in this [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/).
+If you install Ubuntu the normal way, it will prompted to select boot options every time you start up your Steam Deck. To avoid this issue, you can disable the ESP flag during the installation process. Here are the steps:
+
+- Create a live USB Ubuntu by downloading [Ubuntu ISO](https://ubuntu.com/download/desktop) and [Etcher](https://etcher.balena.io/)
+- Plug both live USB and the empty drive into Steam Deck
+- Boot Steam Deck into Boot Manager by holding volume up button and power button and select the Ubuntu
+- Choose try Ubuntu
+- Disable ESP and install Ubuntu on the second drive (follow this guide [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/))
+- When the installation finishes, reset ESP partition back in its original state.
+
+Your Steam Deck still boots into SteamOS the way it does, and Ubuntu only show up in the Boot Manager if you plug in the external drive.
 
 **Removing Ubuntu from BIOS Boot Menu (UEFI)**
 
-If you mistakenly added Ubuntu to the boot menu in your BIOS or UEFI, you can find how to remove it [here](https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi).
+If you mistakenly added Ubuntu to the boot menu in your BIOS or UEFI, you can find how to remove it .
+
+```bash
+sudo apt-get install efibootmgr
+sudo modprobe efivars
+sudo efibootmgr
+# Then delete the option you don't want. In this example, Ubuntu is entry 0.
+sudo efibootmgr -b 0 -B 
+```
+
+Further details described [here](https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi)
 
 That is. I hope that this guide has provided you with the necessary information to install either Windows 11 or Ubuntu on your Steam Deck.
