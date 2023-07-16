@@ -49,6 +49,6 @@ sudo efibootmgr
 sudo efibootmgr -b 0 -B 
 ```
 
-Further details described [remove Ubuntu in boot menu](https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi)
+Further details described in [remove Ubuntu in boot menu](https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi)
 
 Now you can enjoy either Windows 11 or Ubuntu on your Steam Deck.
