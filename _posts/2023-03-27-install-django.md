@@ -1,13 +1,13 @@
-# Getting Started with Django Templates
-
-Django is a popular Python web framework that provides a lot of useful features for building web applications. In this tutorial, we'll walk through the steps of setting up a new Django project with templates.
-
+---
+layout: post
+title: How to install Django for development
+tags: [python, web]
+---
 ## Step 1: Create a Project Directory
 
 The first step is to create a new project directory and navigate to it in your terminal. You can do this with the following commands:
 
 ```bash
-Copy code
 mkdir project_name
 cd project_name
 ```
@@ -21,7 +21,6 @@ Next, you'll want to create a virtual environment for your project. A virtual en
 To create a virtual environment, use the following commands:
 
 ```bash
-Copy code
 python3 -m venv venv
 source venv/bin/activate
 ```
