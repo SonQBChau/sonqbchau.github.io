@@ -35,7 +35,7 @@ If you install Ubuntu the normal way, it will prompted to select boot options ev
 - Disable ESP and install Ubuntu on the second drive (follow this guide [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/))
 - When the installation finishes, reset ESP partition back in its original state.
 
-Your Steam Deck still boots into SteamOS the way it does, and Ubuntu only show up in the Boot Manager if you plug in the external drive.
+Your Steam Deck still boots into SteamOS the way it does, and Ubuntu only shows up in the Boot Manager if you plug in the external drive.
 
 **Removing Ubuntu from BIOS Boot Menu (UEFI)**
 
