@@ -30,7 +30,7 @@ If you install Ubuntu the normal way, it will prompted to select boot options ev
 
 - Create a live USB Ubuntu by downloading [Ubuntu ISO](https://ubuntu.com/download/desktop) and [Etcher](https://etcher.balena.io/)
 - Plug both live USB and the empty drive into Steam Deck
-- Boot Steam Deck into Boot Manager by holding volume up button and power button and select the Ubuntu
+- Boot Steam Deck into Boot Manager by holding volume up button and power button and select Ubuntu
 - Choose try Ubuntu
 - Disable ESP and install Ubuntu on the second drive (follow this guide [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/))
 - When the installation finishes, reset ESP partition back in its original state.
@@ -49,6 +49,6 @@ sudo efibootmgr
 sudo efibootmgr -b 0 -B 
 ```
 
-Further details described [here](https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi)
+Further details described [remove Ubuntu in boot menu](https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi)
 
 That is. I hope that this guide has provided you with the necessary information to install either Windows 11 or Ubuntu on your Steam Deck.
