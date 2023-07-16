@@ -5,14 +5,12 @@ tags: [python, web]
 ---
 ## Step 1: Create a Project Directory
 
-The first step is to create a new project directory and navigate to it in your terminal. You can do this with the following commands:
+The first step is to create a new project directory and navigate to it in your terminal. Replace `project_name` with the name of your project.
 
 ```bash
 mkdir project_name
 cd project_name
 ```
-
-Replace project_name with the name of your project.
 
 ## Step 2: Set Up a Virtual Environment
 
