@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to install Django for development
-tags: [python, web]
+tags: [python, web, django]
 ---
 ## Step 1: Create a Project Directory
 
