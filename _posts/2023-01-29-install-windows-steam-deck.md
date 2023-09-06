@@ -12,7 +12,7 @@ If you want to save your Steam Deck's storage, particularly when equipped with o
 
 To run Windows from an USB drive, you'll need to use Windows to Go as standard versions cannot be installed on external drives. An SSD is recommended. Download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) from Microsoft's website, and [Rufus](https://rufus.ie/) to create Windows to Go image option.
 
-Once you have both the Windows ISO and Rufus, follow these steps:
+Once you have both the Windows ISO and Rufus ready:
 
 1. Open Rufus and select the external USB drive as the target device.
 2. Choose the Windows 11 ISO as the source.
@@ -28,7 +28,7 @@ Dual boot Windows 11 and SteamOS on Steam Deck is a little more involved, refer 
 
 ## Ubuntu Installation
 
-If you install Ubuntu the normal way, it will prompted to select boot options every time you start up your Steam Deck. To avoid this issue, disable the ESP flag during the installation process. Here are the steps:
+If you install Ubuntu by selecting the external drive as its destination, it may still prompt you to select Ubuntu boot options even when the external drive is not connected. To avoid this issue, disable the ESP flag during the installation process. Here are the steps:
 
 - Create a live USB Ubuntu by downloading [Ubuntu ISO](https://ubuntu.com/download/desktop) and [Etcher](https://etcher.balena.io/)
 - Plug both live USB and the empty drive into Steam Deck
