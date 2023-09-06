@@ -47,7 +47,7 @@ Your Steam Deck still boots into SteamOS the way it does, and Ubuntu only shows 
 
 **Removing Ubuntu from BIOS Boot Menu (UEFI)**
 
-If you mistakenly added Ubuntu to the boot menu in your BIOS or UEFI, you can find how to remove it .
+If you mistakenly added Ubuntu to the boot menu in your BIOS or UEFI, you can remove it.
 
 ```bash
 sudo efibootmgr
