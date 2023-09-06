@@ -2,7 +2,6 @@
 layout: post
 title: Simplify Your Development Workflow with Dev Environments
 tags: [python, web, django]
-author: Son Chau 
 date: 2023-07-05
 ---
 
