@@ -39,7 +39,7 @@ If you install Ubuntu by selecting the external drive as its destination, it may
 - Skip wifi setup and choose "Minimal installation", then "Something else"
 - Choose the correct external drive for "Device for bootloader installation" (for example /dev/sda)
 - On this drive, clicking the – button to delete any existing partitions
-- Select + button to create partition for ESP, set size 500 MB and use as "EFI System Partition"
+- Select + button to create partition for ESP, set size 100-500 MB and use as "EFI System Partition"
 - Create the remaining free space with Ext4 filesystem with mount point "/"
 - When the installation finishes, click "Continue Testing" and re-enable ESP flags in GParted.
 
