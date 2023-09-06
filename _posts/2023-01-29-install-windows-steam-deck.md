@@ -2,6 +2,9 @@
 layout: post
 title: How to install Windows or Ubuntu on a Steam Deck with an External USB Drive
 tags: [gaming, steam deck]
+author: Son Chau 
+date: 2023-01-29
+update: 2023-09-05
 ---
 
 Installing Windows or Ubuntu on an external USB drive is a great way to save your Steam Deck storage, especially if you have the 64GB version. This guide provides instructions for installing either operating system on your Steam Deck.
@@ -42,13 +45,11 @@ Your Steam Deck still boots into SteamOS the way it does, and Ubuntu only shows 
 If you mistakenly added Ubuntu to the boot menu in your BIOS or UEFI, you can find how to remove it .
 
 ```bash
-sudo apt-get install efibootmgr
-sudo modprobe efivars
 sudo efibootmgr
 # Then delete the option you don't want. In this example, Ubuntu is entry 0.
 sudo efibootmgr -b 0 -B 
 ```
 
-Further details described in [remove Ubuntu in boot menu](https://askubuntu.com/questions/63610/how-do-i-remove-ubuntu-in-the-bios-boot-menu-uefi)
+*NOTE*: I found that Steam Deck update can cause issues with booting Ubuntu. In this case, simply use the command above to remove Ubuntu option and then restart should fix it.
 
 Now you can enjoy either Windows 11 or Ubuntu on your Steam Deck.
