@@ -6,11 +6,11 @@ date: 2023-01-29
 update: 2023-09-05
 ---
 
-Installing Windows or Ubuntu on an external USB drive is a great way to save your Steam Deck storage, especially if you have the 64GB version. This guide provides instructions for installing either operating system on your Steam Deck.
+If you want to maximize your Steam Deck's storage, particularly when equipped with only 64GB, while also setting up Windows or Linux as a secondary operating system, this guide show you how to install both options on external drive.
 
 ## Windows Installation
 
-To run Windows from an USB drive, you'll need to use Windows to Go as standard versions cannot be installed on external drives. An SSD is also recommended as HDD is slow. Download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) from Microsoft's website, and [Rufus](https://rufus.ie/) to create Windows to Go image option.
+To run Windows from an USB drive, you'll need to use Windows to Go as standard versions cannot be installed on external drives. An SSD is recommended. Download the [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) from Microsoft's website, and [Rufus](https://rufus.ie/) to create Windows to Go image option.
 
 Once you have both the Windows ISO and Rufus, follow these steps:
 
