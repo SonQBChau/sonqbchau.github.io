@@ -6,7 +6,7 @@ date: 2023-01-29
 update: 2023-09-05
 ---
 
-If you want to maximize your Steam Deck's storage, particularly when equipped with only 64GB, while also setting up Windows or Linux as a secondary operating system, this guide show you how to install both options on external drive.
+If you want to save your Steam Deck's storage, particularly when equipped with only 64GB, while also setting up Windows or Linux as a secondary operating system, this guide show you how to install both options on external drive.
 
 ## Windows Installation
 
