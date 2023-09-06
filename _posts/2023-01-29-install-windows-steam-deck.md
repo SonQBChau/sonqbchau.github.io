@@ -33,10 +33,10 @@ If you install Ubuntu the normal way, it will prompted to select boot options ev
 
 - Create a live USB Ubuntu by downloading [Ubuntu ISO](https://ubuntu.com/download/desktop) and [Etcher](https://etcher.balena.io/)
 - Plug both live USB and the empty drive into Steam Deck
-- Boot Steam Deck into Boot Manager by holding volume button and power button and select Ubuntu
+- Boot into Ubuntu by holding volume button and power button
 - Choose try Ubuntu
-- Open GParted, find the partition flagged as ESP, click on manage flags and disable it. (step by step details [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/))
-- Select "Install Ubuntu" on the desktop
+- Open GParted, find the partition flagged as ESP, click on manage flags and disable it. (step by step details here [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/))
+- Once removed, select "Install Ubuntu" on the desktop
 - Skip wifi setup and choose "Minimal installation", then "Something else"
 - Choose the correct external drive for "Device for bootloader installation" (for example /dev/sda)
 - On this drive, clicking the – button to delete any existing partitions
