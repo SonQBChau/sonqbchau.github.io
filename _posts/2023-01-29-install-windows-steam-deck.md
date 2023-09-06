@@ -33,10 +33,16 @@ If you install Ubuntu the normal way, it will prompted to select boot options ev
 
 - Create a live USB Ubuntu by downloading [Ubuntu ISO](https://ubuntu.com/download/desktop) and [Etcher](https://etcher.balena.io/)
 - Plug both live USB and the empty drive into Steam Deck
-- Boot Steam Deck into Boot Manager by holding volume up button and power button and select Ubuntu
+- Boot Steam Deck into Boot Manager by holding volume button and power button and select Ubuntu
 - Choose try Ubuntu
-- Disable ESP and install Ubuntu on the second drive (follow this guide [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/))
-- When the installation finishes, reset ESP partition back in its original state.
+- Open GParted, find the partition flagged as ESP, click on manage flags and disable it. (step by step details [Install Ubuntu on USB](https://itsfoss.com/intsall-ubuntu-on-usb/))
+- Select "Install Ubuntu" on the desktop
+- Skip wifi setup and choose "Minimal installation", then "Something else"
+- Choose the correct external drive for "Device for bootloader installation" (for example /dev/sda)
+- On this drive, clicking the – button to delete any existing partitions
+- Select + button to create partition for ESP, set size 500 MB and use as "EFI System Partition"
+- Create the remaining free space with Ext4 filesystem with mount point "/"
+- When the installation finishes, click "Continue Testing" and re-enable ESP flags in GParted.
 
 Your Steam Deck still boots into SteamOS the way it does, and Ubuntu only shows up in the Boot Manager if you plug in the external drive.
 
@@ -50,6 +56,4 @@ sudo efibootmgr
 sudo efibootmgr -b 0 -B 
 ```
 
-*NOTE*: I found that Steam Deck update can cause issues with booting Ubuntu. In this case, simply use the command above to remove Ubuntu option and then restart should fix it.
-
-Now you can enjoy either Windows 11 or Ubuntu on your Steam Deck.
+*NOTE: I found that Steam Deck update can cause issues with booting Ubuntu. In this case, simply use the command above to remove Ubuntu option and then restart should fix it.*
