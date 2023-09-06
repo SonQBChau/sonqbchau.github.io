@@ -5,6 +5,9 @@
   {% if page.date %}
     <span class="text-upcase">{{ page.date | date: "%B %d %Y"}}</span>
   {% endif %}
+  {% if page.update %}
+  <span class="text-upcase"> (UPDATED {{ page.update | date: "%B %d %Y"}})</span>
+  {% endif %}
 
 {% if site.theme_config.show_reading_time == true %}
   {% capture words %}
