@@ -28,7 +28,7 @@ Dual boot Windows 11 and SteamOS on Steam Deck is a little more involved, refer 
 
 ## Ubuntu Installation
 
-If you install Ubuntu the normal way, it will prompted to select boot options every time you start up your Steam Deck. To avoid this issue, you can disable the ESP flag during the installation process. Here are the steps:
+If you install Ubuntu the normal way, it will prompted to select boot options every time you start up your Steam Deck. To avoid this issue, disable the ESP flag during the installation process. Here are the steps:
 
 - Create a live USB Ubuntu by downloading [Ubuntu ISO](https://ubuntu.com/download/desktop) and [Etcher](https://etcher.balena.io/)
 - Plug both live USB and the empty drive into Steam Deck
