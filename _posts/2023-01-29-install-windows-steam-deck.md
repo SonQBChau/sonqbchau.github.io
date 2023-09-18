@@ -30,6 +30,8 @@ Dual boot Windows 11 and SteamOS on Steam Deck is a little more involved, refer 
 
 If you install Ubuntu by selecting the external drive as its destination, it may still prompt you to select Ubuntu boot options even when the external drive is not connected. To avoid this issue, disable the ESP flag during the installation process. Here are the steps:
 
+*NOTE: I have found that Ubuntu has a boot issue if the external drive is unplugged. If this happens, it might be best to keep the boot option on the main drive.*
+
 - Create a live USB Ubuntu by downloading [Ubuntu ISO](https://ubuntu.com/download/desktop) and [Etcher](https://etcher.balena.io/)
 - Plug both live USB and the empty drive into Steam Deck
 - Boot into Ubuntu by holding volume button and power button
@@ -55,4 +57,3 @@ sudo efibootmgr
 sudo efibootmgr -b 0 -B 
 ```
 
-*NOTE: I found that Steam Deck update can cause issues with booting Ubuntu. In this case, simply use the command above to remove Ubuntu option and then restart should fix it.*
