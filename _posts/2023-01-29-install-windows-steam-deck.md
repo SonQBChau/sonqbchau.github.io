@@ -56,4 +56,3 @@ sudo efibootmgr
 # Then delete the option you don't want. In this example, Ubuntu is entry 0.
 sudo efibootmgr -b 0 -B 
 ```
-
