@@ -30,8 +30,6 @@ Dual boot Windows 11 and SteamOS on Steam Deck is a little more involved, refer 
 
 If you install Ubuntu by selecting the external drive as its destination, it may still prompt you to select Ubuntu boot options even when the external drive is not connected. To avoid this issue, disable the ESP flag during the installation process. Here are the steps:
 
-*NOTE: I have found that Ubuntu has a boot issue if the external drive is unplugged. If this happens, it might be best to keep the boot option on the main drive.*
-
 - Create a live USB Ubuntu by downloading [Ubuntu ISO](https://ubuntu.com/download/desktop) and [Etcher](https://etcher.balena.io/)
 - Plug both live USB and the empty drive into Steam Deck
 - Boot into Ubuntu by holding volume button and power button
@@ -56,3 +54,25 @@ sudo efibootmgr
 # Then delete the option you don't want. In this example, Ubuntu is entry 0.
 sudo efibootmgr -b 0 -B 
 ```
+Then go to `rootfs/mnt/efi`, you should find something like `boot`, `steamos`, `ubuntu`. Delete `ubuntu`.
+
+**Fixing SteamOS Boot Failure**
+
+If you encounter a "Default Boot Device Missing or Boot Failed" error after a SteamOS update:
+
+- Power off your Steam Deck and access the boot menu by holding Volume Up and Power.
+- Choose "Boot From File" to open a File Explorer.
+- Select the first .esp file, open the EFI partition, and boot from the SteamOS .efi file.
+- Switch to SteamOS Desktop, open Konsole, and execute (assuming 0001 isn't in use, check `efibootmgr` first):
+
+```bash
+sudo efibootmgr -c -L "SteamOS" -l "\EFI\steamos\steamcl.efi" -d /dev/nvme0n1p1 -b 0001
+```
+
+**Setting SteamOS as the default**
+
+<https://github.com/scawp/Steam-Deck.Force-SteamOS-On-Boot>
+
+<https://github.com/ryanrudolfoba/SteamDeck-EFI-script>
+
+*NOTE: If you encounter boot issues after unplugging and re-plugging an external drive, update the SSD enclosure firmware (I have UGREEN for example). Find out what the chipset is, and get the newest from [station-drivers](<https://www.station-drivers.com/index.php/en/component/remository/Drivers/Realtek/NVMe-USB-3.1/lang,en-gb/>)*
