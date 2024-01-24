@@ -1,18 +1,21 @@
 ---
-import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
+
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-		</div>
+		<ul class="horizontal-list">
+			<li>
+			  <a href="/">home</a>&nbsp;&nbsp;
+			</li>
+			<li>
+			  <a href="/blog">blog</a>&nbsp;&nbsp;
+			</li>
+		</ul>
 	</nav>
+	<div class="dashed"></div>
 </header>
-<style>
+<!-- <style>
 	header {
 		margin: 0;
 		padding: 0 1em;
@@ -52,4 +55,4 @@ import { SITE_TITLE } from '../consts';
 			display: none;
 		}
 	}
-</style>
+</style> -->
