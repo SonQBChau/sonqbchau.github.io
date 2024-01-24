@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Simplify Your Development Workflow with Dev Environments
 tags: [python, web, django]
 date: 2023-07-05

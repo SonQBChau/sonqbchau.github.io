@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Pragmatic Programmer
 tags: [book, summary]
 date: 2023-10-26
