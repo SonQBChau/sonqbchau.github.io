@@ -1,9 +1,11 @@
 ---
+layout: ../../layouts/BlogLayout.astro
 title: Simplify Your Development Workflow with Dev Environments
 tags: [python, web, django]
 date: 2023-07-05
 pubDate: 'Jul 08 2022'
 description: 'Lorem ipsum dolor sit amet'
+
 ---
 
 ## Introduction

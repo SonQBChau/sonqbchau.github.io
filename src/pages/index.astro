@@ -1,83 +1,73 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
+import Credit from '../components/Credit.astro';
 import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import BlogPost from '../layouts/BlogPost.astro';
+import Header from '../components/Header.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Home Page";
 ---
-
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<main>
-			<div class="w">
-		<BlogPost
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage="/blog-placeholder-about.jpg"
->
-			<p>  I am a software engineer with a Master's degree in Data Science and 4+ years of experience. I excel in creating performant products and user-friendly designs, and am proficient in various programming languages including Python and JavaScript. In addition to my professional experience, I have a passion for game development and enjoy experimenting with new technologies and techniques to create engaging and interactive experiences.
+<BaseLayout pageTitle={pageTitle}>
+	<Header />
+	<h1>{pageTitle}</h1>
+	<p> I am a software engineer with a Master's degree in Data Science and 4+ years of experience. 
+		I excel in creating performant products and user-friendly designs, and am proficient 
+		in various programming languages including Python and JavaScript. In addition to my 
+		professional experience, I have a passion for game development and enjoy experimenting 
+		with new technologies and techniques to create engaging and interactive experiences.
+	</p>
+	<h2>Projects</h2>
+	<ul class="horizontal-list">
+  
+		<li class="card">
+		  <a href="https://github.com/SonQBChau/crown-clothing">
+			<span class="header">
+			  Mai's Clothing
+			</span>
+			<hr />
+			<p class="body">
+			  Full-fledged e-commerce website using React, Redux, GraphQL
 			</p>
-			<h2>Projects</h2>
-			<ul class="horizontal-list">
-		  
-				<li class="card">
-				  <a href="https://github.com/SonQBChau/crown-clothing">
-					<span class="header">
-					  Mai's Clothing
-					</span>
-					<hr />
-					<p class="body">
-					  Full-fledged e-commerce website using React, Redux, GraphQL
-					</p>
-				  </a>
-				</li>
-		  
-				<li class="card">
-				  <a href="https://github.com/SonQBChau/crown-clothing">
-					<span class="header">
-					  Mai's Clothing
-					</span>
-					<hr />
-					<p class="body">
-					  Full-fledged e-commerce website using React, Redux, GraphQL
-					</p>
-				  </a>
-				</li>
-		  
-				<li class="card">
-				  <a href="https://github.com/SonQBChau/crown-clothing">
-					<span class="header">
-					  Mai's Clothing
-					</span>
-					<hr />
-					<p class="body">
-					  Full-fledged e-commerce website using React, Redux, GraphQL
-					</p>
-				  </a>
-				</li>
-		  
-				<li class="card">
-				  <a href="https://github.com/SonQBChau/crown-clothing">
-					<span class="header">
-					  Mai's Clothing
-					</span>
-					<hr />
-					<p class="body">
-					  Full-fledged e-commerce website using React, Redux, GraphQL
-					</p>
-				  </a>
-				</li>
-			
-			</ul>
-		</BlogPost>
-		
-		</div>
-		</main>	
+		  </a>
+		</li>
+  
+		<li class="card">
+		  <a href="https://github.com/SonQBChau/crown-clothing">
+			<span class="header">
+			  Mai's Clothing
+			</span>
+			<hr />
+			<p class="body">
+			  Full-fledged e-commerce website using React, Redux, GraphQL
+			</p>
+		  </a>
+		</li>
+  
+		<li class="card">
+		  <a href="https://github.com/SonQBChau/crown-clothing">
+			<span class="header">
+			  Mai's Clothing
+			</span>
+			<hr />
+			<p class="body">
+			  Full-fledged e-commerce website using React, Redux, GraphQL
+			</p>
+		  </a>
+		</li>
+  
+		<li class="card">
+		  <a href="https://github.com/SonQBChau/crown-clothing">
+			<span class="header">
+			  Mai's Clothing
+			</span>
+			<hr />
+			<p class="body">
+			  Full-fledged e-commerce website using React, Redux, GraphQL
+			</p>
+		  </a>
+		</li>
+	
+	</ul>
+	<Footer />
+	<Credit />
+</BaseLayout>
 
-	</body>
-</html>
+

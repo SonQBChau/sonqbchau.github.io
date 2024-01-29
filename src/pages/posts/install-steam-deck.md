@@ -3,6 +3,7 @@ title: 'Install steam deck'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 22 2022'
 heroImage: '/blog-placeholder-4.jpg'
+date: 2023-07-05
 ---
 
 Step to setup games in Steam Deck
