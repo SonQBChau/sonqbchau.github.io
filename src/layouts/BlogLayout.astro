@@ -1,0 +1,27 @@
+---
+import Credit from "../components/Credit.astro";
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout pageTitle={frontmatter.title}>
+  <a href="/blog">back</a>
+  <h1>{frontmatter.title}</h1>
+  <div class="post-date text-bold">
+    <div class="text-upcase">
+      <p>{frontmatter.pubDate.slice(0, 10)}</p>
+    </div>
+  </div>
+
+  <div>
+    {
+      frontmatter.tags.map((tag) => (
+        // <span class="tag"><a href={`/tags/${tag}`}>{tag}</a></span>
+        <span class="tag">{tag}</span>
+      ))
+    }
+  </div>
+
+  <slot />
+  <Credit />
+</BaseLayout>
