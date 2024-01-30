@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogLayout.astro
 title: 'Install steam deck'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 22 2022'

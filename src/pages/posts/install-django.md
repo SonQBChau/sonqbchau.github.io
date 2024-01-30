@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogLayout.astro
 title: 'How to install Django for development'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 08 2022'

@@ -4,6 +4,7 @@ tags: [book, summary]
 date: 2023-10-26
 pubDate: 'Jul 08 2022'
 description: 'Lorem ipsum dolor sit amet'
+layout: ../../layouts/BlogLayout.astro
 ---
 
 # The Pragmatic Programmer
