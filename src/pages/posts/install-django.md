@@ -2,9 +2,8 @@
 layout: ../../layouts/BlogLayout.astro
 title: 'How to install Django for development'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
+published: 'March 27 2023'
 tags: [python, web, django]
-date: 2023-07-05
 ---
 
 ## Step 1: Create a Project Directory
