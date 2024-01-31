@@ -1,7 +1,12 @@
 ---
-const { title, url, published, modified } = Astro.props;
+const { title, url, published } = Astro.props;
+// convert published from format March 27 2023 to 2023-03-27
+const publishedDate = new Date(published).toISOString().split("T")[0];
 ---
 
 <li class="post-list-item">
-  <span class="home-date">{published}»</span><a href={url}> {title}</a>
+  <span class="home-date">
+    {publishedDate}»
+  </span>
+  <a href={url}>{title}</a>
 </li>

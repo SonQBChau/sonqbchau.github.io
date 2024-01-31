@@ -1,8 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import BlogPost from "../components/BlogLine.astro";
+import BlogLine from "../components/BlogLine.astro";
 import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
 import Credit from "../components/Credit.astro";
 const allPosts = await Astro.glob("./posts/*.md");
 const pageTitle = "Blog";
@@ -19,7 +18,7 @@ allPosts.sort(
   <ul>
     {
       allPosts.map((post) => (
-        <BlogPost
+        <BlogLine
           url={post.url}
           title={post.frontmatter.title}
           published={post.frontmatter.published}
