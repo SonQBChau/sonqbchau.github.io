@@ -4,7 +4,6 @@ title: How to install Windows or Ubuntu on a Steam Deck with an External USB Dri
 tags: [gaming, steam deck]
 published: 'January 29 2023'
 modified: 'September 05 2023'
-description: 'Lorem ipsum dolor sit amet'
 ---
 
 If you want to save your Steam Deck's storage, particularly when equipped with only 64GB, while also setting up Windows or Linux as a secondary operating system, this guide show you how to install both options on external drive.

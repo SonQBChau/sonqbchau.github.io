@@ -2,7 +2,6 @@
 title: The Pragmatic Programmer
 tags: [book, summary]
 published: 'October 26 2023'
-description: 'Lorem ipsum dolor sit amet'
 layout: ../../layouts/BlogLayout.astro
 ---
 
