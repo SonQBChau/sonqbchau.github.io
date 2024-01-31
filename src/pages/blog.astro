@@ -6,6 +6,12 @@ import Footer from "../components/Footer.astro";
 import Credit from "../components/Credit.astro";
 const allPosts = await Astro.glob("./posts/*.md");
 const pageTitle = "Blog";
+// Sort allPosts by the published date in descending order
+allPosts.sort(
+  (a, b) =>
+    new Date(b.frontmatter.published).getTime() -
+    new Date(a.frontmatter.published).getTime()
+);
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -13,15 +19,14 @@ const pageTitle = "Blog";
   <ul>
     {
       allPosts.map((post) => (
-        <BlogPost 
-        url={post.url} 
-        title={post.frontmatter.title} 
-        published={post.frontmatter.published}
-        modified={post.frontmatter.modified}
+        <BlogPost
+          url={post.url}
+          title={post.frontmatter.title}
+          published={post.frontmatter.published}
+          modified={post.frontmatter.modified}
         />
       ))
     }
   </ul>
-  <Footer />
   <Credit />
 </BaseLayout>

@@ -2,4 +2,6 @@
 const { title, url, published, modified } = Astro.props;
 ---
 
-<li>{published}» <a href={url}>{title}</a></li>
+<li class="post-list-item">
+  <span class="home-date">{published}»</span><a href={url}> {title}</a>
+</li>
