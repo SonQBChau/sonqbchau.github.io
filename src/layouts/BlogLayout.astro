@@ -9,7 +9,10 @@ const { frontmatter } = Astro.props;
   <h1 class="post-title">{frontmatter.title}</h1>
   <div class="post-date text-bold">
     <div class="text-upcase">
-      <p>{frontmatter.published} {frontmatter.modified ? ` (UPDATED ${frontmatter.modified})` : ''}</p>
+      <p>
+        {frontmatter.published}
+        {frontmatter.modified ? ` (UPDATED ${frontmatter.modified})` : ""}
+      </p>
     </div>
   </div>
 
@@ -21,7 +24,8 @@ const { frontmatter } = Astro.props;
       ))
     }
   </div>
-
+  <!-- INSERT CONTENT HERE -->
   <slot />
+  <!-- INSERT CONTENT HERE -->
   <Credit />
 </BaseLayout>
