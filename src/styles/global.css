@@ -35,13 +35,13 @@ hr.page-break {
 	border: 0;
 
 	&:before {
-			content: '-----'
+		content: '-----'
 		}
 
-								&:after {
-									content: attr(data-content) '-----'
-								}
-								}
+				&:after {
+					content: attr(data-content) '-----'
+				}
+				}
 
 p {
 	margin: 1em 0;
@@ -78,9 +78,9 @@ blockquote {
 	padding: 1em;
 
 	p {
-			margin: 0;
+		margin: 0;
 		}
-	}
+				}
 
 img {
 	max-width: 100%;
@@ -182,6 +182,7 @@ html.transition *:after {
 	transition: all 250ms !important;
 	transition-delay: 0 !important;
 }
+
 .dashed {
 	border-top: 1px var(--text) dashed;
 	margin: 0.5em 0;
@@ -241,15 +242,15 @@ li code {
 	text-align: center;
 
 	a {
-			color: var(--text);
+		color: var(--text);
 			text-decoration: none;
 			font-weight: bold;
 		}
 
-								a:hover {
-									color: var(--links);
-								}
-								}
+				a:hover {
+					color: var(--links);
+				}
+				}
 
 .tag {
 	font-family: "Roboto Mono", "Courier New", monospace;
@@ -270,14 +271,14 @@ ul.horizontal-list {
 	flex-wrap: wrap;
 
 	li {
-			display: inline;
+		display: inline;
 			margin-right: 1em;
 		}
 
-								li a {
-									text-decoration: none;
-									font-weight: normal
-								}
+				li a {
+					text-decoration: none;
+					font-weight: normal
+				}
 
 }
 
@@ -294,16 +295,16 @@ ul.horizontal-list {
 	border-radius: 0.5em;
 
 	.header {
-			color: var(--links);
+		color: var(--links);
 		}
 
-								.body {
-									font-size: 0.8em;
-								}
+				.body {
+					font-size: 0.8em;
+				}
 
-								hr {
-									margin: 0.5em 0;
-								}
+				hr {
+					margin: 0.5em 0;
+				}
 
 }
 
@@ -316,7 +317,7 @@ ul.horizontal-list {
 		margin-left: 1em;
 
 		a,
-			.header {
+		.header {
 				font-size: 1em;
 			}
 		}
