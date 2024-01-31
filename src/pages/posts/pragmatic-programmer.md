@@ -5,8 +5,6 @@ published: 'October 26 2023'
 layout: ../../layouts/BlogLayout.astro
 ---
 
-# The Pragmatic Programmer
-
 *Disclaimer: This is not a book review, but rather a summary of the key takeaways from the book.*
 
 ### Provide Options, Don’t Make Lame Excuses
