@@ -33,4 +33,4 @@ Before installing any games on Steam Deck, certain software needs to be installe
 - From Game options, select .exe for Main file then click Save
 ![dos2](https://github.com/SonQBChau/sonqbchau.github.io/assets/12553570/cf10248c-205f-49d8-b762-f3a4a56687b5)
 
-A new game should appear in the Lutris Library. You can configure the game banner and add a Steam shortcut if desired. Remember to open and close the Steam app for the changes to take effect.
+A new game should appear in the Lutris Library. You can configure the game banner and add a Steam shortcut. Remember to open and close the Steam app for the changes to take effect.
