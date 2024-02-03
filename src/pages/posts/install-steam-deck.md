@@ -1,5 +1,5 @@
 ---
-title: 'Installing Non Steam Games on Steam Deck'
+title: 'Install Non Steam Games on Steam Deck'
 layout: ../../layouts/BlogLayout.astro
 tags: [gaming, steam deck]
 published: 'January 31 2024'
@@ -13,7 +13,7 @@ Before installing any games on Steam Deck, certain software needs to be installe
 2. **ProtonUp-Qt:**
    Lutris comes with its own Proton (Steam's compatibility tool for running Windows games on Linux), but some games does not work well with it. ProtonUp-Qt allows you to choose and install additional versions. Open ProtonUp-Qt, click "Add version," select "Wine-GE" and choose "GE-Proton8-x." I find that the latest version usually works best, but if your game is not supported, try out other versions.
 
-### Using Lutris for Windows Games
+### Install Windows Games
 
 - Open Lutris and click on the + button (Add games to Lutris) in the top-left corner.
 - Choose the third option "Install a Windows game from an executable."
@@ -25,7 +25,7 @@ Before installing any games on Steam Deck, certain software needs to be installe
 - Close the setup window after it's finished.
 - A new game should appear in the Lutris Library. You can configure the game banner and add a Steam shortcut if desired. Remember to open and close the Steam app for the changes to take effect.
 
-### Using Lutris for DOS Games
+### Install DOS Games
 
 - Open Lutris and click on the + button (Add games to Lutris) in the top-left corner.
 - Opt for the last option "Add locally Installed Game"
