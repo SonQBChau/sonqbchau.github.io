@@ -23,7 +23,6 @@ Before installing any games on Steam Deck, certain software needs to be installe
 - Locate the game setup file (.exe) and click "Install"
 ![win2](https://github.com/SonQBChau/sonqbchau.github.io/assets/12553570/79d9f511-19de-47b6-88c0-258382929888)
 - Close the setup window after it's finished.
-- A new game should appear in the Lutris Library. You can configure the game banner and add a Steam shortcut if desired. Remember to open and close the Steam app for the changes to take effect.
 
 ### Install DOS Games
 
@@ -33,6 +32,5 @@ Before installing any games on Steam Deck, certain software needs to be installe
 - Enter the name of the game and select runner as DOSBox (MS-DOS emulator)
 - From Game options, select .exe for Main file then click Save
 ![dos2](https://github.com/SonQBChau/sonqbchau.github.io/assets/12553570/cf10248c-205f-49d8-b762-f3a4a56687b5)
-- A new game should appear in the Lutris Library. You can configure the game banner and add a Steam shortcut if desired. Remember to open and close the Steam app for the changes to take effect.
 
-By following these simple steps, you can easily install and play non-Steam games on Steam Deck!
+A new game should appear in the Lutris Library. You can configure the game banner and add a Steam shortcut if desired. Remember to open and close the Steam app for the changes to take effect.
