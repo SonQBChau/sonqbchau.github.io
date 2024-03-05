@@ -7,7 +7,7 @@ tags: [database]
 
 ## Method 1: Installing PostgreSQL with Homebrew
 
-Straightforward PostgreSQL setup for users who prefer the command-line.
+Straightforward PostgreSQL setup for who prefer the command-line.
 
 ### 1. Install PostgreSQL
 
