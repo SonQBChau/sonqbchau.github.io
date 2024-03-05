@@ -80,9 +80,9 @@ Django uses SQLite by default, but if you prefer PostgreSQL, modify `config/sett
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "database_name",
-        "USER": "admin_username",
-        "PASSWORD": "admin_password",
+        "NAME": "<database_name>",
+        "USER": "<admin_username>",
+        "PASSWORD": "<admin_password>",
         "HOST": "localhost",
         "PORT": "5432",
     }
