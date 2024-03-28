@@ -27,7 +27,7 @@ Setting up application client achieved through the [client_setup](https://github
 
 The final step is creating users through the [user_setup](https://github.com/SonQBChau/keycloak-setup/blob/main/src/scripts/client_setup.sh) script, which will update the passwords securely from secrets.
 
-### Logging Into Your Keycloak
+### Step 6: Logging Into Your Keycloak
 
 With the steps completed, you can test the application on the [Keycloak website](https://www.keycloak.org/app/). The client_setup script includes configuring this redirect URL.
 
