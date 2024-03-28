@@ -11,6 +11,12 @@ This guide will take you through the process of settting up Keycloak using Docke
 
 Creating a Docker Compose file is the first step. This file outlines how your Keycloak service will operate. To avoid hardcoding credentials into the Docker Compose file, we utilize a [credential_loader](https://github.com/SonQBChau/keycloak-setup/blob/main/src/scripts/credential_loader.sh). This script dynamically loads the admin username and password from a secret file when the container starts and simplifies credential management.
 
+```sh
+# Load credentials from secrets
+export KEYCLOAK_ADMIN=$(< /run/secrets/kc-admin-user)
+export KEYCLOAK_ADMIN_PASSWORD=$(< /run/secrets/kc-admin-password)
+```
+
 ### Step 2: Run Keycloak Setup Script
 
 After your container is up, the next step is running the [keycloak_setup](https://github.com/SonQBChau/keycloak-setup/blob/main/src/scripts/keycloak_setup.sh) script. `kcadm.sh` is a command-line tool within Keycloak to authenticate as an admin. It allows you to perform initial setup tasks that could alternatively be done using the [Keycloak portal](https://www.keycloak.org/getting-started/getting-started-docker). Additionally, this script calls the setup of realms, clients, and users.
