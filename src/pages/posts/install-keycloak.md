@@ -31,4 +31,4 @@ The final step is creating users through the [user_setup](https://github.com/Son
 
 With the steps completed, you can test the application on the [Keycloak website](https://www.keycloak.org/app/). The client_setup script includes configuring this redirect URL.
 
-You can find the source codes [here](https://github.com/SonQBChau/keycloak-setup)
+The source codes are available [here](https://github.com/SonQBChau/keycloak-setup)
