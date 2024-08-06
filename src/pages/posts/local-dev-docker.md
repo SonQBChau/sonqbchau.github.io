@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: 'Docker local development with databases'
+title: 'How to setup a python project with VS Code Dev Containers
 published: 'Aug 5 2024'
 tags: [vscode]
 ---
 
-## Simplifying Python Project Setup with VS Code Dev Containers
+## How to setup a python project with VS Code Dev Containers
 
 Setting up a Python project with a `.venv` is usually straightforward, especially when running the debugger directly from VS Code. However, integrating local services like PostgreSQL and Redis can be more complex. Fortunately, VS Code's Dev Containers make it easy to configure your development environment with these services.
 
