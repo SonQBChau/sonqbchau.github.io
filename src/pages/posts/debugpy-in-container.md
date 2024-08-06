@@ -31,7 +31,7 @@ backend:
 Since the template uses Poetry for dependency management, add Debugpy to your project with the following command:
 
 ```bash
-poetry install debugpy
+poetry add debugpy
 ```
 
 ## Step 4: Configure VS Code
@@ -43,7 +43,6 @@ Create a `launch.json` file in the `.vscode` directory with the following config
   "name": "debugpy",
   "type": "debugpy",
   "request": "attach",
-  "justMyCode": false,
   "pathMappings": [
     {
       "localRoot": "${workspaceFolder}/backend/app",
