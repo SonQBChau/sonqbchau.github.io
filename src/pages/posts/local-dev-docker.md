@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: 'How to setup a python project with VS Code Dev Containers
+title: How to setup a python project with VS Code Dev Containers
 published: 'Aug 5 2024'
 tags: [vscode]
 ---
