@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: Mockaroo usages
+title: Mockaroo tips and tricks
 published: 'Aug 22 2024'
 tags: [mock]
 ---
