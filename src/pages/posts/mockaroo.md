@@ -74,7 +74,7 @@ For example, if we want `gender` to contain a list of objects:
   <img width="738" alt="nested_object" src="https://github.com/user-attachments/assets/63250de1-d130-45af-870e-551a5c5191bf">
 </figure>
 
-### `gender.sex` Formula
+`gender.sex` Formula
 
 ```ruby
 if this == 1 then 'Male'
