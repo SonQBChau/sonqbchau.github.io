@@ -77,3 +77,5 @@ sudo efibootmgr -c -L "SteamOS" -l "\EFI\steamos\steamcl.efi" -d /dev/nvme0n1p1 
 <https://github.com/ryanrudolfoba/SteamDeck-EFI-script>
 
 *NOTE: If you encounter boot issues after unplugging and re-plugging an external drive, update the SSD enclosure firmware (I have UGREEN for example). Find out what the chipset is, and get the newest from [station-drivers](<https://www.station-drivers.com/index.php/en/component/remository/Drivers/Realtek/NVMe-USB-3.1/lang,en-gb/>)*
+
+*UPDATE: If you prefer, you can run Windows inside Ubuntu using Docker. I’ve tested it—it’s slow, but it works for running some Windows programs. Follow the instructions here: https://github.com/dockur/windows/*
