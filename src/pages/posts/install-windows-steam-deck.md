@@ -28,7 +28,7 @@ Dual boot Windows 11 and SteamOS on Steam Deck is a little more involved, refer 
 
 ## Ubuntu Installation
 
-**Notes**: This doesn't seem needed on Ubuntu 25 — the regular installation should works fine.
+**Notes**: This step isn't needed on Ubuntu 25. The standard installation should work fine. Just select the external drive, delete any existing partitions, and create a new one using Ext4 with the mount point "/". The boot partition will be created automatically.
 
 If you install Ubuntu by selecting the external drive as its destination, it may still prompt you to select Ubuntu boot options even when the external drive is not connected. To avoid this issue, disable the ESP flag during the installation process. Here are the steps:
 
