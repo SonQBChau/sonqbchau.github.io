@@ -4,14 +4,15 @@ title: Update SSD enclosure firmware
 tags: [gaming, steam deck]
 published: 'November 20 2025'
 ---
+
 ## Update SSD enclosure firmware
 
 Find out what the chipset model is. Mine is Realtek 9210
 
-![Image](https://github.com/user-attachments/assets/acd16e7d-8290-4480-8595-8db94786c734)
+![Image](https://private-user-images.githubusercontent.com/12553570/517248574-1aa9410a-c006-42b6-9b79-93b427c39bf1.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjM3MDg5OTYsIm5iZiI6MTc2MzcwODY5NiwicGF0aCI6Ii8xMjU1MzU3MC81MTcyNDg1NzQtMWFhOTQxMGEtYzAwNi00MmI2LTliNzktOTNiNDI3YzM5YmYxLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTIxVDA3MDQ1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQzNzc2YzVlMzVmZjMzOThhNDM0MTllMWM2M2EwYjk4ZTUzMWNjNGRmYmI2ZDZiODUxOTY2ODI3MGIyMWYwN2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.RiGHF6YSb35yMFcUWMmoRXJuqL7X4EgUxBP8I_8Tp_0)
 
 Get the latest driver from [station-drivers](<https://www.station-drivers.com/index.php/en/component/remository/Drivers/Realtek/NVMe-USB-3.1/lang,en-gb/>
 
-<img width="579" height="208" alt="Image" src="https://github.com/user-attachments/assets/5f2e402d-0b15-498e-995e-dc7cf6ce82f1" />
+<img width="579" height="208" alt="Image" src="https://private-user-images.githubusercontent.com/12553570/517244822-5f2e402d-0b15-498e-995e-dc7cf6ce82f1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjM3MDkwMzEsIm5iZiI6MTc2MzcwODczMSwicGF0aCI6Ii8xMjU1MzU3MC81MTcyNDQ4MjItNWYyZTQwMmQtMGIxNS00OThlLTk5NWUtZGM3Y2Y2Y2U4MmYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTIxVDA3MDUzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI5OGJhY2YwNWUwM2E1NmQyNmRlMGRlMjIzY2U5NTg1MGQ4MzNhMmEzNWNhZGRlZjg5NTZjYjVhMGNkOTQ1MzUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.RTMm7zQ6mqVnh0xgJxIy7cyob_FRJ7SBnRKj-RLsiHs" />
 
 Flash the firmware
