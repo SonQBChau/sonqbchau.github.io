@@ -1,0 +1,17 @@
+---
+layout: ../../layouts/BlogLayout.astro
+title: Update SSD enclosure firmware
+tags: [gaming, steam deck]
+published: 'November 20 2025'
+---
+## Update SSD enclosure firmware
+
+Find out what the chipset model is. Mine is Realtek 9210
+
+![Image](https://github.com/user-attachments/assets/acd16e7d-8290-4480-8595-8db94786c734)
+
+Get the latest driver from [station-drivers](<https://www.station-drivers.com/index.php/en/component/remository/Drivers/Realtek/NVMe-USB-3.1/lang,en-gb/>
+
+<img width="579" height="208" alt="Image" src="https://github.com/user-attachments/assets/5f2e402d-0b15-498e-995e-dc7cf6ce82f1" />
+
+Flash the firmware
