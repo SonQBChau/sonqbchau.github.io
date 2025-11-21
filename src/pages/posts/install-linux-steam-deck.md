@@ -14,8 +14,8 @@ published: 'November 20 2025'
 - Start the installer.
 - Select Interactive installation.
 - Delete the old drive (click the – icon).
-![Image](https://github.com/user-attachments/assets/fea17d02-bcad-4d89-8328-8748efb61610)
+![Image](https://github.com/user-attachments/assets/c97c4801-077c-4a09-934c-e027f17d9ccf)
 - Create a new one and set the mount point to /. The boot partition will be created for you.
-![Image](https://github.com/user-attachments/assets/c4769526-61cb-47b5-ade3-a3f3bae61173)
+![Image](https://github.com/user-attachments/assets/2086a79e-8cc2-4ecf-9b56-b32231ac9340)
 - Review the summary. Other drives should stay unchanged
-![Image](https://github.com/user-attachments/assets/a521414a-9974-4f70-aaa5-0ed9e971f765)
+![Image](https://github.com/user-attachments/assets/72c5c166-2dd3-4bab-a4e7-715e697a951b)
